@@ -19,10 +19,24 @@
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </nav>
-            <form action="search.php" method="GET" class="search-form">
-                <input type="text" name="query" placeholder="Search..." required>
-                <button type="submit">Search</button>
-            </form>
+            <div class="search-options">
+              <input type="radio" name="category" id="all" checked>
+              <label for="all">All</label>
+          
+              <input type="radio" name="category" id="facilities">
+              <label for="facilities">Facilities</label>
+          
+              <input type="radio" name="category" id="membership">
+              <label for="membership">Membership</label>
+          </div>
+          
+          <div class="content">
+              <div class="all">Welcome to VFitness!</div>
+              <div class="facilities">Facility One</div>
+              <div class="facilities">Facility Two</div>
+              <div class="membership">Membership Plan A</div>
+              <div class="membership">Membership Plan B</div>
+          </div>
         </div>
     </header>
 

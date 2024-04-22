@@ -47,29 +47,22 @@ header nav ul li a {
     text-decoration: none;
     font-size: 1rem;
 }
-.search-form {
-    display: flex;
-    align-items: center;
+.content div {
+    display: none;
 }
 
-.search-form input[type="text"] {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+#all:checked ~ .content .all,
+#all:checked ~ .content .facilities,
+#all:checked ~ .content .membership {
+    display: block;
 }
 
-.search-form button {
-    padding: 8px 16px;
-    background-color: #fff;
-    color: #333;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-left: 8px; /* Adds space between input and button */
+#facilities:checked ~ .content .facilities {
+    display: block;
 }
 
-.search-form button:hover {
-    background-color: #e0e0e0; /* Light grey for hover */
+#membership:checked ~ .content .membership {
+    display: block;
 }
 
 section {
