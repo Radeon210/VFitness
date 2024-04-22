@@ -7,19 +7,19 @@ header {
 }
 
 #logo {
-    height: 50px; /* Adjust the size as necessary */
-    margin-right: 20px; /* Ensures some space between the logo and the header content */
+    height: 20px; 
+    align-items: left;
 }
 
 .header-content {
     display: flex;
     flex-direction: column;
-    align-items: start; /* Aligns the content to the start, pushing it to the left under the logo */
-    flex-grow: 1; /* Takes up the rest of the space in the header */
+    align-items: start; 
+    flex-grow: 1;
 }
 
 header h1, header nav {
-    text-align: left; /* Aligns the text to the left */
+    text-align: left;
 }
 
 header nav ul {
