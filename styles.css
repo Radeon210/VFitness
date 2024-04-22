@@ -1,6 +1,6 @@
 header {
     background-color: #333;
-    color: #ffd500;
+    color: gold;
     padding: 10px 20px;
     display: flex;
     align-items: center;
@@ -58,7 +58,7 @@ footer {
     text-align: center;
     padding: 10px 0;
     background-color: #333;
-    color: white;
+    color: gold;
 }
 
 footer p {
