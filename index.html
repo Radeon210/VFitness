@@ -9,16 +9,21 @@
 </head>
 <body>
     <header>
-      <a href="/VFitness/"><img src="media/logo.png" alt="VFitness Logo" id="logo"></a>
-      <div class="header-content">
-        <h1>Welcome to VFitness</h1>
-        <nav>
-            <ul>
-                <li><a href="/VFitness/facilities.html">Facilities</a></li>
-                <li><a href="/VFitness/membership.html">Membership</a></li>
-                <li><a href="/VFitness/contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
+        <a href="/VFitness/"><img src="media/logo.png" alt="VFitness Logo" id="logo"></a>
+        <div class="header-content">
+          <h1>Welcome to VFitness</h1>
+            <nav>
+                <ul>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <form action="search.php" method="GET" class="search-form">
+                <input type="text" name="query" placeholder="Search..." required>
+                <button type="submit">Search</button>
+            </form>
+        </div>
     </header>
 
     <section id="facilities">

@@ -47,6 +47,30 @@ header nav ul li a {
     text-decoration: none;
     font-size: 1rem;
 }
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-form button {
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 8px; /* Adds space between input and button */
+}
+
+.search-form button:hover {
+    background-color: #e0e0e0; /* Light grey for hover */
+}
 
 section {
     margin: 20px;
