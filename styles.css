@@ -65,3 +65,23 @@ footer {
 footer p {
     margin: 0;
 }
+
+.input-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-right: 10px;
+    white-space: nowrap; 
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    flex-grow: 1; 
+    margin-left: 10px; 
+}
+
